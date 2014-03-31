@@ -18,7 +18,7 @@ def menu():
 			continue
 
 		if opc == 1:
-			Errores.menu()
+			MachineNumber.menu()
 		elif opc == 2:
 			LinearSolver.menu()
 		elif opc == 3:
