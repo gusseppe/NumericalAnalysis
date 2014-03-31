@@ -6,13 +6,13 @@ Package about methods in Numerical Analysis for solving linear equations also ca
 Sobre el programa
 -----------------
 
-El archivo MachineNumer.py contiene metodos para generar numeros de maquina indicandole ciertos parametros.
+El archivo MachineNumer.py contiene métodos para generar numeros de maquina indicandole ciertos parámetros.
 
-El archivo LinearEquation.py contiene metodos para resolver ecuaciones lineales.
+El archivo LinearEquation.py contiene métodos para resolver ecuaciones lineales.
 
-Finalmente el archivo Main.py muestra un menu con el acceso a ambos programas.
+Finalmente el archivo Main.py muestra un menú con el acceso a ambos programas.
 
-Como ejecutar el programa?
+Cómo ejecutar el programa
 ------------------------
 
 Guardar los tres archivos MachineNumber.py, LinearSolver.py y Main.py en una misma carpeta, luego 
@@ -22,25 +22,25 @@ Por ejemplo si usamos la terminal, nos dirigimos a la carpeta de los archivos y 
 
 python Main.py
 
-Como usarlo ?
+Cómo usarlo
 -------------
 
-Para el manejo de numeros de maquina se necesitan parametros como mantisa, base y las cotas del exponente 
+Para el manejo de numeros de maquina se necesitan parámetros como mantisa, base y las cotas del exponente 
 de la base, el mismo programa indica los pasos.
 
-Para resolver ecuaciones lineales necesitamos la matriz y el vector independiente, tambien en ciertos 
-casos se necesita confirmar el tipo de resolucion: con pivotacion parcial, total o sin pivotacion.
+Para resolver ecuaciones lineales necesitamos la matriz y el vector independiente, también en ciertos 
+casos se necesita confirmar el tipo de resolución: con pivotacion parcial, total o sin pivotacion.
 
 Por hacer
 ---------
 
-Agregar nuevos metodos y mejorar los existentes, por ejemplo:
+Agregar nuevos métodos y mejorar los existentes, por ejemplo:
 
 - Metodo de Parlett y Reid
 - Metodo de Aasen
 - Completar el tema de condicionamiento
 
-Basicamente agregar otro que falte y obviamente mejorar los existentes en busca de bugs.
+Básicamente agregar otro que falte y obviamente mejorar los existentes en busca de bugs.
 
 Si alguiente quiere aportar solo haga un fork del project :).
 
