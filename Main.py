@@ -1,5 +1,5 @@
 import Errores
-import LinearSolver
+import MachineNumber
 
 def menu():
 	print "\t\t\t  Bienvenidos al Paquete de Analisis Numerico"
