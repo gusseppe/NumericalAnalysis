@@ -154,6 +154,9 @@ def reverseSub(a):
 	for j in range(n-1, -1, -1):
             if a[j][j] != 0:#Una manera de evitar una excepcion en matriz singular
                     x[j] = (a[j][n] - sum(a[j][k]*x[k] for k in range(j+1, n)))/float(a[j][j])
+            else:
+                print 'Matriz singular, la ecuacion no tiene solucion o tiene infinitas soluciones .'
+                break
 	return x	
 
 def solMatrixSup(M, b):
