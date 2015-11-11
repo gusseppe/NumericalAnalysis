@@ -5,6 +5,8 @@
 	- La mayoria de las funciones y las variables estan en ingles, y los comentarios en espanol.	
 	- Aun falta implementar varios metodos, y mejorar los existentes.
 
+        - El paquete no soporta matrices singulares.
+
    Definiciones:
    A, M : Matriz original.
    a : Matriz aumentada (A|b)
@@ -33,6 +35,8 @@ def inputMatrix():
 
 	n = int(input("Ingrese el orden de la matriz: "))
 	print "Ingrese los elementos de la matriz A fila por fila con un espacio luego enter"
+        print "Por ejemplo, para una matriz de orden 3:","\n", "3 2 1"
+        print "1 7 5","\n\n"
 	A = [[0.0]*n for i in range(n)]
 	aux = [[0.0]*n for i in range(n)]
 	for i in range(n):
@@ -148,7 +152,8 @@ def reverseSub(a):
 	n = len(a)
 	x = [0]*n
 	for j in range(n-1, -1, -1):
-		x[j] = (a[j][n] - sum(a[j][k]*x[k] for k in range(j+1, n)))/float(a[j][j])
+            if a[j][j] != 0:#Una manera de evitar una excepcion en matriz singular
+                    x[j] = (a[j][n] - sum(a[j][k]*x[k] for k in range(j+1, n)))/float(a[j][j])
 	return x	
 
 def solMatrixSup(M, b):
