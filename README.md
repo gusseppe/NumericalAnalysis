@@ -39,6 +39,7 @@ Agregar nuevos métodos lineales y mejorar los existentes, por ejemplo:
 - Metodo de Parlett y Reid
 - Metodo de Aasen
 - Completar el tema de condicionamiento
+- Trabajar con matrices singulares.
 
 Agregar los metodos no lineales.
 
