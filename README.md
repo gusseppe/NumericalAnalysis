@@ -1,7 +1,7 @@
 NumericalAnalysis
 =================
 
-Package about methods in Numerical Analysis for solving linear equations also can to handle machine numbers.
+Package about methods in Numerical Analysis for solving linear equations, also can handle machine numbers.
 
 Sobre el programa
 -----------------
